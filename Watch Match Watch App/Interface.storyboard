@@ -13,7 +13,7 @@
                         <label alignment="left" text="Game starts at:" id="NiJ-t9-gld"/>
                         <label alignment="left" text="{Time}" id="2Kt-rH-se4"/>
                         <timer alignment="left" id="gNI-nF-CqN"/>
-                        <button alignment="left" backgroundImage="Black" id="l2y-np-nPv">
+                        <button alignment="left" backgroundImage="icon" id="l2y-np-nPv">
                             <connections>
                                 <action selector="tapButton:" destination="AgC-eL-Hgc" id="no6-oF-8kk"/>
                             </connections>
