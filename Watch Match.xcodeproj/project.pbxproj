@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1BA6BC1A22741300469DFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6BB1A22741300469DFF /* main.m */; };
+		4F1BA6BF1A22741300469DFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6BE1A22741300469DFF /* AppDelegate.m */; };
+		4F1BA6C21A22741300469DFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6C11A22741300469DFF /* ViewController.m */; };
+		4F1BA6C51A22741300469DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6C31A22741300469DFF /* Main.storyboard */; };
+		4F1BA6C71A22741300469DFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6C61A22741300469DFF /* Images.xcassets */; };
+		4F1BA6CA1A22741300469DFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6C81A22741300469DFF /* LaunchScreen.xib */; };
+		4F1BA6D61A22741300469DFF /* Watch_MatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6D51A22741300469DFF /* Watch_MatchTests.m */; };
+		4F1BA6E61A22742000469DFF /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA6E51A22742000469DFF /* WatchKit.framework */; };
+		4F1BA6ED1A22742000469DFF /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6EC1A22742000469DFF /* InterfaceController.m */; };
+		4F1BA6F01A22742000469DFF /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6EF1A22742000469DFF /* NotificationController.m */; };
+		4F1BA6F21A22742000469DFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6F11A22742000469DFF /* Images.xcassets */; };
+		4F1BA6F61A22742000469DFF /* Watch Match Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6F51A22742000469DFF /* Watch Match Watch App.app */; };
+		4F1BA6FD1A22742000469DFF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6FC1A22742000469DFF /* Interface.storyboard */; };
+		4F1BA6FF1A22742000469DFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6FE1A22742000469DFF /* Images.xcassets */; };
+		4F1BA7021A22742000469DFF /* Watch Match WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F1BA6E31A22742000469DFF /* Watch Match WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F1BA7141A22753700469DFF /* WatchFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1BA7131A22753700469DFF /* WatchFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F1BA71A1A22753700469DFF /* WatchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */; };
+		4F1BA7231A22753700469DFF /* WatchFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA7221A22753700469DFF /* WatchFrameworkTests.m */; };
+		4F1BA7261A22753700469DFF /* WatchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */; };
+		4F1BA7271A22753700469DFF /* WatchFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F1BA7321A2276F600469DFF /* GameCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1BA7301A2276F600469DFF /* GameCreator.h */; };
+		4F1BA7331A2276F600469DFF /* GameCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA7311A2276F600469DFF /* GameCreator.m */; };
+		4F1BA7361A22776B00469DFF /* GameConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1BA7341A22776B00469DFF /* GameConstants.h */; };
+		4F1BA73A1A227B3600469DFF /* GameTurn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1BA7381A227B3600469DFF /* GameTurn.h */; };
+		4F1BA73B1A227B3600469DFF /* GameTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA7391A227B3600469DFF /* GameTurn.m */; };
+		4F1BA7501A228EE600469DFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA74F1A228EE600469DFF /* main.m */; };
+		4F1BA7541A228F0000469DFF /* GameTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA7391A227B3600469DFF /* GameTurn.m */; };
+		4F1BA7551A228F0200469DFF /* GameCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA7311A2276F600469DFF /* GameCreator.m */; };
+		4F1BA75A1A2294F300469DFF /* GameLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1BA7581A2294F300469DFF /* GameLogic.h */; };
+		4F1BA75B1A2294F300469DFF /* GameLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA7591A2294F300469DFF /* GameLogic.m */; };
+		4F1BA75C1A2296B200469DFF /* WatchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */; };
+		4F1BA75D1A22970E00469DFF /* Game.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA7561A2294D800469DFF /* Game.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F1BA6D01A22741300469DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1BA6AE1A22741300469DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1BA6B51A22741300469DFF;
+			remoteInfo = "Watch Match";
+		};
+		4F1BA6F71A22742000469DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1BA6AE1A22741300469DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1BA6F41A22742000469DFF;
+			remoteInfo = "Watch Match Watch App";
+		};
+		4F1BA7001A22742000469DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1BA6AE1A22741300469DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1BA6E21A22742000469DFF;
+			remoteInfo = "Watch Match WatchKit Extension";
+		};
+		4F1BA71B1A22753700469DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1BA6AE1A22741300469DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1BA70E1A22753700469DFF;
+			remoteInfo = WatchFramework;
+		};
+		4F1BA71D1A22753700469DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1BA6AE1A22741300469DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1BA6B51A22741300469DFF;
+			remoteInfo = "Watch Match";
+		};
+		4F1BA7241A22753700469DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1BA6AE1A22741300469DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1BA70E1A22753700469DFF;
+			remoteInfo = WatchFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F1BA7091A22742000469DFF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F1BA7021A22742000469DFF /* Watch Match WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA72B1A22753700469DFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4F1BA7271A22753700469DFF /* WatchFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA74B1A228EE500469DFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F1BA6B61A22741300469DFF /* Watch Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BA6BA1A22741300469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BA6BB1A22741300469DFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F1BA6BD1A22741300469DFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F1BA6BE1A22741300469DFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F1BA6C01A22741300469DFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F1BA6C11A22741300469DFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F1BA6C41A22741300469DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F1BA6C61A22741300469DFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F1BA6C91A22741300469DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4F1BA6CF1A22741300469DFF /* Watch MatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watch MatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BA6D41A22741300469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BA6D51A22741300469DFF /* Watch_MatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watch_MatchTests.m; sourceTree = "<group>"; };
+		4F1BA6E31A22742000469DFF /* Watch Match WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Match WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BA6E51A22742000469DFF /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		4F1BA6E91A22742000469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BA6EA1A22742000469DFF /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		4F1BA6EB1A22742000469DFF /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4F1BA6EC1A22742000469DFF /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4F1BA6EE1A22742000469DFF /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		4F1BA6EF1A22742000469DFF /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		4F1BA6F11A22742000469DFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F1BA6F51A22742000469DFF /* Watch Match Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Match Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BA6FB1A22742000469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BA6FC1A22742000469DFF /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		4F1BA6FE1A22742000469DFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F1BA70F1A22753700469DFF /* WatchFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BA7121A22753700469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BA7131A22753700469DFF /* WatchFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchFramework.h; sourceTree = "<group>"; };
+		4F1BA7191A22753700469DFF /* WatchFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BA7211A22753700469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1BA7221A22753700469DFF /* WatchFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchFrameworkTests.m; sourceTree = "<group>"; };
+		4F1BA7301A2276F600469DFF /* GameCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCreator.h; sourceTree = "<group>"; };
+		4F1BA7311A2276F600469DFF /* GameCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCreator.m; sourceTree = "<group>"; };
+		4F1BA7341A22776B00469DFF /* GameConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
+		4F1BA7381A227B3600469DFF /* GameTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTurn.h; sourceTree = "<group>"; };
+		4F1BA7391A227B3600469DFF /* GameTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTurn.m; sourceTree = "<group>"; };
+		4F1BA74D1A228EE500469DFF /* Game Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Game Generator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1BA74F1A228EE600469DFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F1BA7561A2294D800469DFF /* Game.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Game.plist; sourceTree = "<group>"; };
+		4F1BA7581A2294F300469DFF /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
+		4F1BA7591A2294F300469DFF /* GameLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLogic.m; sourceTree = "<group>"; };
+		4F1BA75E1A229FDE00469DFF /* PlayerIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerIndex.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F1BA6B31A22741300469DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA7261A22753700469DFF /* WatchFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA6CC1A22741300469DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA6E01A22742000469DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA75C1A2296B200469DFF /* WatchFramework.framework in Frameworks */,
+				4F1BA6E61A22742000469DFF /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA70B1A22753700469DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA7161A22753700469DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA71A1A22753700469DFF /* WatchFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA74A1A228EE500469DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1BA6AD1A22741300469DFF = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6B81A22741300469DFF /* Watch Match */,
+				4F1BA6D21A22741300469DFF /* Watch MatchTests */,
+				4F1BA6E71A22742000469DFF /* Watch Match WatchKit Extension */,
+				4F1BA6F91A22742000469DFF /* Watch Match Watch App */,
+				4F1BA7101A22753700469DFF /* WatchFramework */,
+				4F1BA71F1A22753700469DFF /* WatchFrameworkTests */,
+				4F1BA74E1A228EE600469DFF /* Game Generator */,
+				4F1BA6E41A22742000469DFF /* Frameworks */,
+				4F1BA6B71A22741300469DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F1BA6B71A22741300469DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6B61A22741300469DFF /* Watch Match.app */,
+				4F1BA6CF1A22741300469DFF /* Watch MatchTests.xctest */,
+				4F1BA6E31A22742000469DFF /* Watch Match WatchKit Extension.appex */,
+				4F1BA6F51A22742000469DFF /* Watch Match Watch App.app */,
+				4F1BA70F1A22753700469DFF /* WatchFramework.framework */,
+				4F1BA7191A22753700469DFF /* WatchFrameworkTests.xctest */,
+				4F1BA74D1A228EE500469DFF /* Game Generator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F1BA6B81A22741300469DFF /* Watch Match */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6BD1A22741300469DFF /* AppDelegate.h */,
+				4F1BA6BE1A22741300469DFF /* AppDelegate.m */,
+				4F1BA6C01A22741300469DFF /* ViewController.h */,
+				4F1BA6C11A22741300469DFF /* ViewController.m */,
+				4F1BA6C31A22741300469DFF /* Main.storyboard */,
+				4F1BA6C61A22741300469DFF /* Images.xcassets */,
+				4F1BA6C81A22741300469DFF /* LaunchScreen.xib */,
+				4F1BA6B91A22741300469DFF /* Supporting Files */,
+			);
+			path = "Watch Match";
+			sourceTree = "<group>";
+		};
+		4F1BA6B91A22741300469DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6BA1A22741300469DFF /* Info.plist */,
+				4F1BA6BB1A22741300469DFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1BA6D21A22741300469DFF /* Watch MatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6D51A22741300469DFF /* Watch_MatchTests.m */,
+				4F1BA6D31A22741300469DFF /* Supporting Files */,
+			);
+			path = "Watch MatchTests";
+			sourceTree = "<group>";
+		};
+		4F1BA6D31A22741300469DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6D41A22741300469DFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1BA6E41A22742000469DFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6E51A22742000469DFF /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F1BA6E71A22742000469DFF /* Watch Match WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA7561A2294D800469DFF /* Game.plist */,
+				4F1BA6EB1A22742000469DFF /* InterfaceController.h */,
+				4F1BA6EC1A22742000469DFF /* InterfaceController.m */,
+				4F1BA6EE1A22742000469DFF /* NotificationController.h */,
+				4F1BA6EF1A22742000469DFF /* NotificationController.m */,
+				4F1BA6F11A22742000469DFF /* Images.xcassets */,
+				4F1BA6E81A22742000469DFF /* Supporting Files */,
+			);
+			path = "Watch Match WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4F1BA6E81A22742000469DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6E91A22742000469DFF /* Info.plist */,
+				4F1BA6EA1A22742000469DFF /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1BA6F91A22742000469DFF /* Watch Match Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6FC1A22742000469DFF /* Interface.storyboard */,
+				4F1BA6FE1A22742000469DFF /* Images.xcassets */,
+				4F1BA6FA1A22742000469DFF /* Supporting Files */,
+			);
+			path = "Watch Match Watch App";
+			sourceTree = "<group>";
+		};
+		4F1BA6FA1A22742000469DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA6FB1A22742000469DFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1BA7101A22753700469DFF /* WatchFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA7131A22753700469DFF /* WatchFramework.h */,
+				4F1BA7581A2294F300469DFF /* GameLogic.h */,
+				4F1BA7591A2294F300469DFF /* GameLogic.m */,
+				4F1BA7111A22753700469DFF /* Supporting Files */,
+				4F1BA7301A2276F600469DFF /* GameCreator.h */,
+				4F1BA7311A2276F600469DFF /* GameCreator.m */,
+				4F1BA7341A22776B00469DFF /* GameConstants.h */,
+				4F1BA7381A227B3600469DFF /* GameTurn.h */,
+				4F1BA7391A227B3600469DFF /* GameTurn.m */,
+				4F1BA75E1A229FDE00469DFF /* PlayerIndex.h */,
+			);
+			path = WatchFramework;
+			sourceTree = "<group>";
+		};
+		4F1BA7111A22753700469DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA7121A22753700469DFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1BA71F1A22753700469DFF /* WatchFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA7221A22753700469DFF /* WatchFrameworkTests.m */,
+				4F1BA7201A22753700469DFF /* Supporting Files */,
+			);
+			path = WatchFrameworkTests;
+			sourceTree = "<group>";
+		};
+		4F1BA7201A22753700469DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA7211A22753700469DFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1BA74E1A228EE600469DFF /* Game Generator */ = {
+			isa = PBXGroup;
+			children = (
+				4F1BA74F1A228EE600469DFF /* main.m */,
+			);
+			path = "Game Generator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F1BA70C1A22753700469DFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA7141A22753700469DFF /* WatchFramework.h in Headers */,
+				4F1BA7321A2276F600469DFF /* GameCreator.h in Headers */,
+				4F1BA75A1A2294F300469DFF /* GameLogic.h in Headers */,
+				4F1BA7361A22776B00469DFF /* GameConstants.h in Headers */,
+				4F1BA73A1A227B3600469DFF /* GameTurn.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F1BA6B51A22741300469DFF /* Watch Match */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BA6D91A22741300469DFF /* Build configuration list for PBXNativeTarget "Watch Match" */;
+			buildPhases = (
+				4F1BA6B21A22741300469DFF /* Sources */,
+				4F1BA6B31A22741300469DFF /* Frameworks */,
+				4F1BA6B41A22741300469DFF /* Resources */,
+				4F1BA7091A22742000469DFF /* Embed App Extensions */,
+				4F1BA72B1A22753700469DFF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1BA7011A22742000469DFF /* PBXTargetDependency */,
+				4F1BA7251A22753700469DFF /* PBXTargetDependency */,
+			);
+			name = "Watch Match";
+			productName = "Watch Match";
+			productReference = 4F1BA6B61A22741300469DFF /* Watch Match.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F1BA6CE1A22741300469DFF /* Watch MatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BA6DC1A22741300469DFF /* Build configuration list for PBXNativeTarget "Watch MatchTests" */;
+			buildPhases = (
+				4F1BA6CB1A22741300469DFF /* Sources */,
+				4F1BA6CC1A22741300469DFF /* Frameworks */,
+				4F1BA6CD1A22741300469DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1BA6D11A22741300469DFF /* PBXTargetDependency */,
+			);
+			name = "Watch MatchTests";
+			productName = "Watch MatchTests";
+			productReference = 4F1BA6CF1A22741300469DFF /* Watch MatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F1BA6E21A22742000469DFF /* Watch Match WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BA7061A22742000469DFF /* Build configuration list for PBXNativeTarget "Watch Match WatchKit Extension" */;
+			buildPhases = (
+				4F1BA6DF1A22742000469DFF /* Sources */,
+				4F1BA6E01A22742000469DFF /* Frameworks */,
+				4F1BA6E11A22742000469DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1BA6F81A22742000469DFF /* PBXTargetDependency */,
+			);
+			name = "Watch Match WatchKit Extension";
+			productName = "Watch Match WatchKit Extension";
+			productReference = 4F1BA6E31A22742000469DFF /* Watch Match WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		4F1BA6F41A22742000469DFF /* Watch Match Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BA7031A22742000469DFF /* Build configuration list for PBXNativeTarget "Watch Match Watch App" */;
+			buildPhases = (
+				4F1BA6F31A22742000469DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Match Watch App";
+			productName = "Watch Match Watch App";
+			productReference = 4F1BA6F51A22742000469DFF /* Watch Match Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		4F1BA70E1A22753700469DFF /* WatchFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BA7281A22753700469DFF /* Build configuration list for PBXNativeTarget "WatchFramework" */;
+			buildPhases = (
+				4F1BA70A1A22753700469DFF /* Sources */,
+				4F1BA70B1A22753700469DFF /* Frameworks */,
+				4F1BA70C1A22753700469DFF /* Headers */,
+				4F1BA70D1A22753700469DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchFramework;
+			productName = WatchFramework;
+			productReference = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F1BA7181A22753700469DFF /* WatchFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BA72C1A22753700469DFF /* Build configuration list for PBXNativeTarget "WatchFrameworkTests" */;
+			buildPhases = (
+				4F1BA7151A22753700469DFF /* Sources */,
+				4F1BA7161A22753700469DFF /* Frameworks */,
+				4F1BA7171A22753700469DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1BA71C1A22753700469DFF /* PBXTargetDependency */,
+				4F1BA71E1A22753700469DFF /* PBXTargetDependency */,
+			);
+			name = WatchFrameworkTests;
+			productName = WatchFrameworkTests;
+			productReference = 4F1BA7191A22753700469DFF /* WatchFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F1BA74C1A228EE500469DFF /* Game Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1BA7511A228EE600469DFF /* Build configuration list for PBXNativeTarget "Game Generator" */;
+			buildPhases = (
+				4F1BA7491A228EE500469DFF /* Sources */,
+				4F1BA74A1A228EE500469DFF /* Frameworks */,
+				4F1BA74B1A228EE500469DFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game Generator";
+			productName = "Game Generator";
+			productReference = 4F1BA74D1A228EE500469DFF /* Game Generator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F1BA6AE1A22741300469DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TeamHand;
+				TargetAttributes = {
+					4F1BA6B51A22741300469DFF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4F1BA6CE1A22741300469DFF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4F1BA6B51A22741300469DFF;
+					};
+					4F1BA6E21A22742000469DFF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4F1BA6F41A22742000469DFF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4F1BA70E1A22753700469DFF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4F1BA7181A22753700469DFF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4F1BA6B51A22741300469DFF;
+					};
+					4F1BA74C1A228EE500469DFF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 4F1BA6B11A22741300469DFF /* Build configuration list for PBXProject "Watch Match" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F1BA6AD1A22741300469DFF;
+			productRefGroup = 4F1BA6B71A22741300469DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F1BA6B51A22741300469DFF /* Watch Match */,
+				4F1BA6CE1A22741300469DFF /* Watch MatchTests */,
+				4F1BA6E21A22742000469DFF /* Watch Match WatchKit Extension */,
+				4F1BA6F41A22742000469DFF /* Watch Match Watch App */,
+				4F1BA70E1A22753700469DFF /* WatchFramework */,
+				4F1BA7181A22753700469DFF /* WatchFrameworkTests */,
+				4F1BA74C1A228EE500469DFF /* Game Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F1BA6B41A22741300469DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA6C51A22741300469DFF /* Main.storyboard in Resources */,
+				4F1BA6CA1A22741300469DFF /* LaunchScreen.xib in Resources */,
+				4F1BA6C71A22741300469DFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA6CD1A22741300469DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA6E11A22742000469DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA75D1A22970E00469DFF /* Game.plist in Resources */,
+				4F1BA6F61A22742000469DFF /* Watch Match Watch App.app in Resources */,
+				4F1BA6F21A22742000469DFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA6F31A22742000469DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA6FD1A22742000469DFF /* Interface.storyboard in Resources */,
+				4F1BA6FF1A22742000469DFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA70D1A22753700469DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA7171A22753700469DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F1BA6B21A22741300469DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA6C21A22741300469DFF /* ViewController.m in Sources */,
+				4F1BA6BF1A22741300469DFF /* AppDelegate.m in Sources */,
+				4F1BA6BC1A22741300469DFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA6CB1A22741300469DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA6D61A22741300469DFF /* Watch_MatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA6DF1A22742000469DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA6F01A22742000469DFF /* NotificationController.m in Sources */,
+				4F1BA6ED1A22742000469DFF /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA70A1A22753700469DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA73B1A227B3600469DFF /* GameTurn.m in Sources */,
+				4F1BA75B1A2294F300469DFF /* GameLogic.m in Sources */,
+				4F1BA7331A2276F600469DFF /* GameCreator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA7151A22753700469DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA7231A22753700469DFF /* WatchFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1BA7491A228EE500469DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1BA7541A228F0000469DFF /* GameTurn.m in Sources */,
+				4F1BA7551A228F0200469DFF /* GameCreator.m in Sources */,
+				4F1BA7501A228EE600469DFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F1BA6D11A22741300469DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1BA6B51A22741300469DFF /* Watch Match */;
+			targetProxy = 4F1BA6D01A22741300469DFF /* PBXContainerItemProxy */;
+		};
+		4F1BA6F81A22742000469DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1BA6F41A22742000469DFF /* Watch Match Watch App */;
+			targetProxy = 4F1BA6F71A22742000469DFF /* PBXContainerItemProxy */;
+		};
+		4F1BA7011A22742000469DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1BA6E21A22742000469DFF /* Watch Match WatchKit Extension */;
+			targetProxy = 4F1BA7001A22742000469DFF /* PBXContainerItemProxy */;
+		};
+		4F1BA71C1A22753700469DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1BA70E1A22753700469DFF /* WatchFramework */;
+			targetProxy = 4F1BA71B1A22753700469DFF /* PBXContainerItemProxy */;
+		};
+		4F1BA71E1A22753700469DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1BA6B51A22741300469DFF /* Watch Match */;
+			targetProxy = 4F1BA71D1A22753700469DFF /* PBXContainerItemProxy */;
+		};
+		4F1BA7251A22753700469DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1BA70E1A22753700469DFF /* WatchFramework */;
+			targetProxy = 4F1BA7241A22753700469DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F1BA6C31A22741300469DFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1BA6C41A22741300469DFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F1BA6C81A22741300469DFF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1BA6C91A22741300469DFF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F1BA6D71A22741300469DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F1BA6D81A22741300469DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F1BA6DA1A22741300469DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Watch Match/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F1BA6DB1A22741300469DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Watch Match/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F1BA6DD1A22741300469DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch MatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Match.app/Watch Match";
+			};
+			name = Debug;
+		};
+		4F1BA6DE1A22741300469DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch MatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Match.app/Watch Match";
+			};
+			name = Release;
+		};
+		4F1BA7041A22742000469DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Watch_Match_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch Match Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		4F1BA7051A22742000469DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Watch_Match_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch Match Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		4F1BA7071A22742000469DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch Match WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F1BA7081A22742000469DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Watch Match WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4F1BA7291A22753700469DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F1BA72A1A22753700469DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WatchFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F1BA72D1A22753700469DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Match.app/Watch Match";
+			};
+			name = Debug;
+		};
+		4F1BA72E1A22753700469DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Match.app/Watch Match";
+			};
+			name = Release;
+		};
+		4F1BA7521A228EE600469DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F1BA7531A228EE600469DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F1BA6B11A22741300469DFF /* Build configuration list for PBXProject "Watch Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BA6D71A22741300469DFF /* Debug */,
+				4F1BA6D81A22741300469DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1BA6D91A22741300469DFF /* Build configuration list for PBXNativeTarget "Watch Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BA6DA1A22741300469DFF /* Debug */,
+				4F1BA6DB1A22741300469DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1BA6DC1A22741300469DFF /* Build configuration list for PBXNativeTarget "Watch MatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BA6DD1A22741300469DFF /* Debug */,
+				4F1BA6DE1A22741300469DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1BA7031A22742000469DFF /* Build configuration list for PBXNativeTarget "Watch Match Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BA7041A22742000469DFF /* Debug */,
+				4F1BA7051A22742000469DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1BA7061A22742000469DFF /* Build configuration list for PBXNativeTarget "Watch Match WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BA7071A22742000469DFF /* Debug */,
+				4F1BA7081A22742000469DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1BA7281A22753700469DFF /* Build configuration list for PBXNativeTarget "WatchFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BA7291A22753700469DFF /* Debug */,
+				4F1BA72A1A22753700469DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1BA72C1A22753700469DFF /* Build configuration list for PBXNativeTarget "WatchFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BA72D1A22753700469DFF /* Debug */,
+				4F1BA72E1A22753700469DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F1BA7511A228EE600469DFF /* Build configuration list for PBXNativeTarget "Game Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BA7521A228EE600469DFF /* Debug */,
+				4F1BA7531A228EE600469DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F1BA6AE1A22741300469DFF /* Project object */;
+}
