@@ -17,10 +17,7 @@ static const NSTimeInterval kTurnSeconds = 3.5;
 @interface InterfaceController()
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *gameStartsAtLabel;
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *startTimeLabel;
-@property (weak, nonatomic) IBOutlet WKInterfaceDate *startTimeDate;
-@property (weak, nonatomic) IBOutlet WKInterfaceTimer *startTimeTimer;
 @property (weak, nonatomic) IBOutlet WKInterfaceButton *button;
-@property (weak, nonatomic) IBOutlet WKInterfaceImage *image;
 
 @property (nonatomic) NSTimer *timer;
 
@@ -51,8 +48,7 @@ static const NSTimeInterval kTurnSeconds = 3.5;
 - (void)willActivate {
     self.gameLogic = [[GameLogic alloc] init];
     
-    self.startTimeLabel.text =
-    [NSDateFormatter localizedStringFromDate:self.gameLogic.startTime dateStyle:NSDateFormatterNoStyle timeStyle:NSDateFormatterShortStyle];
+    self.startTimeLabel.text = [NSDateFormatter localizedStringFromDate:self.gameLogic.startTime dateStyle:NSDateFormatterNoStyle timeStyle:NSDateFormatterShortStyle];
     
     self.timer = [[NSTimer alloc] initWithFireDate:self.gameLogic.startTime interval:0 target:self selector:@selector(startGameTimerDidFire:) userInfo:nil repeats:NO];
     
@@ -90,8 +86,6 @@ static const NSTimeInterval kTurnSeconds = 3.5;
 - (void)showGame {
     self.gameStartsAtLabel.hidden = YES;
     self.startTimeLabel.hidden = YES;
-    self.startTimeDate.hidden = YES;
-    self.startTimeTimer.hidden = YES;
     self.button.color = [UIColor greenColor];
     self.isPlaying = YES;
 }
@@ -124,7 +118,6 @@ static const NSTimeInterval kTurnSeconds = 3.5;
     
     NSString *imageFileName = [NSString stringWithFormat:@"shape%lupattern%lu", (unsigned long)shape, (unsigned long)pattern];
     
-    [self.image setImageNamed:imageFileName];
     [self.button setBackgroundImageNamed:imageFileName];
 }
 

@@ -12,7 +12,6 @@
                     <items>
                         <label alignment="left" text="Game starts at:" id="NiJ-t9-gld"/>
                         <label alignment="left" text="{Time}" id="2Kt-rH-se4"/>
-                        <timer alignment="left" id="gNI-nF-CqN"/>
                         <button alignment="left" backgroundImage="icon" id="l2y-np-nPv">
                             <connections>
                                 <action selector="tapButton:" destination="AgC-eL-Hgc" id="no6-oF-8kk"/>
@@ -23,7 +22,6 @@
                         <outlet property="button" destination="l2y-np-nPv" id="W7z-mr-Iad"/>
                         <outlet property="gameStartsAtLabel" destination="NiJ-t9-gld" id="Vz6-jL-PAJ"/>
                         <outlet property="startTimeLabel" destination="2Kt-rH-se4" id="Utq-iQ-yzZ"/>
-                        <outlet property="startTimeTimer" destination="gNI-nF-CqN" id="433-kk-bMb"/>
                     </connections>
                 </controller>
             </objects>
