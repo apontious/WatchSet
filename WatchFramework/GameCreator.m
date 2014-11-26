@@ -10,9 +10,7 @@
 
 #import "GameTurn.h"
 
-// Currently this is "40% match".
-static const NSUInteger kMatchPercent = 40;
-static const NSUInteger kMatchBase = 100;
+static const float kMatchPercent = .70;
 
 @interface GameCreator ()
 
@@ -59,12 +57,12 @@ static NSMutableArray *arrayOfRandomNumbers(const NSUInteger count, const NSUInt
         NSMutableArray *turns = [[NSMutableArray alloc] init];
         
         for (NSUInteger i = 0; i < numberOfTurns; i++) {
-            const NSUInteger randomNumber = arc4random_uniform(kMatchBase);
+            const NSUInteger randomNumber = arc4random_uniform(100);
             
             NSMutableArray *patterns = [[NSMutableArray alloc] init];
             NSMutableArray *shapes = [[NSMutableArray alloc] init];
             
-            if (randomNumber < kMatchPercent) {
+            if (randomNumber < kMatchPercent * 100) {
                 const u_int32_t matchedShape = arc4random_uniform((u_int32_t)numberOfShapes);
                 const u_int32_t matchedPattern = arc4random_uniform((u_int32_t)numberOfPatterns);
                 
