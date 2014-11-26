@@ -18,6 +18,7 @@ static const NSTimeInterval kTurnSeconds = 3.5;
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *gameStartsAtLabel;
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *startTimeLabel;
 @property (weak, nonatomic) IBOutlet WKInterfaceButton *button;
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *gameOverLabel;
 
 @property (nonatomic) NSTimer *timer;
 
@@ -122,6 +123,9 @@ static const NSTimeInterval kTurnSeconds = 3.5;
 }
 
 - (void)endGame {
+    self.button.hidden = YES;
+    self.gameOverLabel.alpha = 1.0;
+    
     NSURL *libraryURL = [[NSFileManager defaultManager] URLForDirectory:NSApplicationSupportDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:nil];
     NSURL *fileURL = [libraryURL URLByAppendingPathComponent:@"Taps.plist"];
     

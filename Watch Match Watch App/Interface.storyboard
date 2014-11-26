@@ -17,9 +17,11 @@
                                 <action selector="tapButton:" destination="AgC-eL-Hgc" id="no6-oF-8kk"/>
                             </connections>
                         </button>
+                        <label alignment="center" verticalAlignment="center" alpha="0.0" text="Game Over" id="7W1-qc-zXt"/>
                     </items>
                     <connections>
                         <outlet property="button" destination="l2y-np-nPv" id="W7z-mr-Iad"/>
+                        <outlet property="gameOverLabel" destination="7W1-qc-zXt" id="iP6-g2-jwS"/>
                         <outlet property="gameStartsAtLabel" destination="NiJ-t9-gld" id="Vz6-jL-PAJ"/>
                         <outlet property="startTimeLabel" destination="2Kt-rH-se4" id="Utq-iQ-yzZ"/>
                     </connections>
