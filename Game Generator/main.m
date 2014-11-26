@@ -11,7 +11,7 @@
 #import "GameCreator.h"
 
 static const NSUInteger kNumberOfPlayers = 3;
-static const NSUInteger kNumberOfTurns = 10;
+static const NSUInteger kNumberOfTurns = 20;
 static const NSUInteger kNumberOfShapes = 9;
 static const NSUInteger kNumberOfPatterns = 5;
 
