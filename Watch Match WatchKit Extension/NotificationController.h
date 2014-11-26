@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Watch Set Team. All rights reserved.
 //
 
-#import <WatchKit/WatchKit.h>
-#import <Foundation/Foundation.h>
+@import WatchKit;
+@import Foundation;
 
 @interface NotificationController : WKUserNotificationInterfaceController
 
