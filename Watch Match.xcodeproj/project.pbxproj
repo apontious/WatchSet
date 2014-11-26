@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F1BA6BC1A22741300469DFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6BB1A22741300469DFF /* main.m */; };
-		4F1BA6BF1A22741300469DFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6BE1A22741300469DFF /* AppDelegate.m */; };
-		4F1BA6C21A22741300469DFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6C11A22741300469DFF /* ViewController.m */; };
 		4F1BA6C51A22741300469DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6C31A22741300469DFF /* Main.storyboard */; };
 		4F1BA6C71A22741300469DFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6C61A22741300469DFF /* Images.xcassets */; };
 		4F1BA6CA1A22741300469DFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6C81A22741300469DFF /* LaunchScreen.xib */; };
-		4F1BA6D61A22741300469DFF /* Watch_MatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6D51A22741300469DFF /* Watch_MatchTests.m */; };
 		4F1BA6E61A22742000469DFF /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA6E51A22742000469DFF /* WatchKit.framework */; };
 		4F1BA6ED1A22742000469DFF /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6EC1A22742000469DFF /* InterfaceController.m */; };
-		4F1BA6F01A22742000469DFF /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA6EF1A22742000469DFF /* NotificationController.m */; };
 		4F1BA6F21A22742000469DFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6F11A22742000469DFF /* Images.xcassets */; };
 		4F1BA6F61A22742000469DFF /* Watch Match Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6F51A22742000469DFF /* Watch Match Watch App.app */; };
 		4F1BA6FD1A22742000469DFF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA6FC1A22742000469DFF /* Interface.storyboard */; };
@@ -24,7 +19,6 @@
 		4F1BA7021A22742000469DFF /* Watch Match WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F1BA6E31A22742000469DFF /* Watch Match WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4F1BA7141A22753700469DFF /* WatchFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1BA7131A22753700469DFF /* WatchFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F1BA71A1A22753700469DFF /* WatchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */; };
-		4F1BA7231A22753700469DFF /* WatchFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA7221A22753700469DFF /* WatchFrameworkTests.m */; };
 		4F1BA7261A22753700469DFF /* WatchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */; };
 		4F1BA7271A22753700469DFF /* WatchFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F1BA7321A2276F600469DFF /* GameCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1BA7301A2276F600469DFF /* GameCreator.h */; };
@@ -39,6 +33,11 @@
 		4F1BA75B1A2294F300469DFF /* GameLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BA7591A2294F300469DFF /* GameLogic.m */; };
 		4F1BA75C1A2296B200469DFF /* WatchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BA70F1A22753700469DFF /* WatchFramework.framework */; };
 		4F1BA75D1A22970E00469DFF /* Game.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F1BA7561A2294D800469DFF /* Game.plist */; };
+		4FA6BC391A269261008E2EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA6BC381A269261008E2EC1 /* AppDelegate.swift */; };
+		4FA6BC3B1A2692DA008E2EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA6BC3A1A2692DA008E2EC1 /* ViewController.swift */; };
+		4FA6BC3D1A2692FB008E2EC1 /* Watch_MatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA6BC3C1A2692FB008E2EC1 /* Watch_MatchTests.swift */; };
+		4FA6BC3F1A269356008E2EC1 /* WatchFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA6BC3E1A269356008E2EC1 /* WatchFrameworkTests.swift */; };
+		4FA6BC411A2694E4008E2EC1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA6BC401A2694E4008E2EC1 /* NotificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,25 +122,17 @@
 /* Begin PBXFileReference section */
 		4F1BA6B61A22741300469DFF /* Watch Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1BA6BA1A22741300469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F1BA6BB1A22741300469DFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F1BA6BD1A22741300469DFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4F1BA6BE1A22741300469DFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F1BA6C01A22741300469DFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F1BA6C11A22741300469DFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F1BA6C41A22741300469DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1BA6C61A22741300469DFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F1BA6C91A22741300469DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4F1BA6CF1A22741300469DFF /* Watch MatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watch MatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1BA6D41A22741300469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F1BA6D51A22741300469DFF /* Watch_MatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watch_MatchTests.m; sourceTree = "<group>"; };
 		4F1BA6E31A22742000469DFF /* Watch Match WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Match WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1BA6E51A22742000469DFF /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		4F1BA6E91A22742000469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F1BA6EA1A22742000469DFF /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
 		4F1BA6EB1A22742000469DFF /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
 		4F1BA6EC1A22742000469DFF /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		4F1BA6EE1A22742000469DFF /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		4F1BA6EF1A22742000469DFF /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		4F1BA6F11A22742000469DFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F1BA6F51A22742000469DFF /* Watch Match Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Match Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1BA6FB1A22742000469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,7 +143,6 @@
 		4F1BA7131A22753700469DFF /* WatchFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchFramework.h; sourceTree = "<group>"; };
 		4F1BA7191A22753700469DFF /* WatchFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1BA7211A22753700469DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F1BA7221A22753700469DFF /* WatchFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchFrameworkTests.m; sourceTree = "<group>"; };
 		4F1BA7301A2276F600469DFF /* GameCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCreator.h; sourceTree = "<group>"; };
 		4F1BA7311A2276F600469DFF /* GameCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCreator.m; sourceTree = "<group>"; };
 		4F1BA7341A22776B00469DFF /* GameConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
@@ -164,6 +154,11 @@
 		4F1BA7581A2294F300469DFF /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
 		4F1BA7591A2294F300469DFF /* GameLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLogic.m; sourceTree = "<group>"; };
 		4F1BA75E1A229FDE00469DFF /* PlayerIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerIndex.h; sourceTree = "<group>"; };
+		4FA6BC381A269261008E2EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FA6BC3A1A2692DA008E2EC1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FA6BC3C1A2692FB008E2EC1 /* Watch_MatchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watch_MatchTests.swift; sourceTree = "<group>"; };
+		4FA6BC3E1A269356008E2EC1 /* WatchFrameworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchFrameworkTests.swift; sourceTree = "<group>"; };
+		4FA6BC401A2694E4008E2EC1 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,10 +243,8 @@
 		4F1BA6B81A22741300469DFF /* Watch Match */ = {
 			isa = PBXGroup;
 			children = (
-				4F1BA6BD1A22741300469DFF /* AppDelegate.h */,
-				4F1BA6BE1A22741300469DFF /* AppDelegate.m */,
-				4F1BA6C01A22741300469DFF /* ViewController.h */,
-				4F1BA6C11A22741300469DFF /* ViewController.m */,
+				4FA6BC381A269261008E2EC1 /* AppDelegate.swift */,
+				4FA6BC3A1A2692DA008E2EC1 /* ViewController.swift */,
 				4F1BA6C31A22741300469DFF /* Main.storyboard */,
 				4F1BA6C61A22741300469DFF /* Images.xcassets */,
 				4F1BA6C81A22741300469DFF /* LaunchScreen.xib */,
@@ -264,7 +257,6 @@
 			isa = PBXGroup;
 			children = (
 				4F1BA6BA1A22741300469DFF /* Info.plist */,
-				4F1BA6BB1A22741300469DFF /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -272,7 +264,7 @@
 		4F1BA6D21A22741300469DFF /* Watch MatchTests */ = {
 			isa = PBXGroup;
 			children = (
-				4F1BA6D51A22741300469DFF /* Watch_MatchTests.m */,
+				4FA6BC3C1A2692FB008E2EC1 /* Watch_MatchTests.swift */,
 				4F1BA6D31A22741300469DFF /* Supporting Files */,
 			);
 			path = "Watch MatchTests";
@@ -300,8 +292,7 @@
 				4F1BA7561A2294D800469DFF /* Game.plist */,
 				4F1BA6EB1A22742000469DFF /* InterfaceController.h */,
 				4F1BA6EC1A22742000469DFF /* InterfaceController.m */,
-				4F1BA6EE1A22742000469DFF /* NotificationController.h */,
-				4F1BA6EF1A22742000469DFF /* NotificationController.m */,
+				4FA6BC401A2694E4008E2EC1 /* NotificationController.swift */,
 				4F1BA6F11A22742000469DFF /* Images.xcassets */,
 				4F1BA6E81A22742000469DFF /* Supporting Files */,
 			);
@@ -363,7 +354,7 @@
 		4F1BA71F1A22753700469DFF /* WatchFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				4F1BA7221A22753700469DFF /* WatchFrameworkTests.m */,
+				4FA6BC3E1A269356008E2EC1 /* WatchFrameworkTests.swift */,
 				4F1BA7201A22753700469DFF /* Supporting Files */,
 			);
 			path = WatchFrameworkTests;
@@ -645,9 +636,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1BA6C21A22741300469DFF /* ViewController.m in Sources */,
-				4F1BA6BF1A22741300469DFF /* AppDelegate.m in Sources */,
-				4F1BA6BC1A22741300469DFF /* main.m in Sources */,
+				4FA6BC3B1A2692DA008E2EC1 /* ViewController.swift in Sources */,
+				4FA6BC391A269261008E2EC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,7 +645,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1BA6D61A22741300469DFF /* Watch_MatchTests.m in Sources */,
+				4FA6BC3D1A2692FB008E2EC1 /* Watch_MatchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +653,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1BA6F01A22742000469DFF /* NotificationController.m in Sources */,
+				4FA6BC411A2694E4008E2EC1 /* NotificationController.swift in Sources */,
 				4F1BA6ED1A22742000469DFF /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -682,7 +672,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1BA7231A22753700469DFF /* WatchFrameworkTests.m in Sources */,
+				4FA6BC3F1A269356008E2EC1 /* WatchFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,9 +821,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Watch Match/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -841,6 +834,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Watch Match/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -851,6 +846,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -862,6 +858,7 @@
 				INFOPLIST_FILE = "Watch MatchTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Match.app/Watch Match";
 			};
 			name = Debug;
@@ -870,6 +867,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -916,6 +914,7 @@
 		4F1BA7071A22742000469DFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -924,12 +923,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4F1BA7081A22742000469DFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Watch Match WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -984,6 +985,7 @@
 		4F1BA72D1A22753700469DFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -995,6 +997,7 @@
 				INFOPLIST_FILE = WatchFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Match.app/Watch Match";
 			};
 			name = Debug;
@@ -1002,6 +1005,7 @@
 		4F1BA72E1A22753700469DFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1055,6 +1059,7 @@
 				4F1BA6DB1A22741300469DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1BA6DC1A22741300469DFF /* Build configuration list for PBXNativeTarget "Watch MatchTests" */ = {
 			isa = XCConfigurationList;
@@ -1063,6 +1068,7 @@
 				4F1BA6DE1A22741300469DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1BA7031A22742000469DFF /* Build configuration list for PBXNativeTarget "Watch Match Watch App" */ = {
 			isa = XCConfigurationList;
@@ -1071,6 +1077,7 @@
 				4F1BA7051A22742000469DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1BA7061A22742000469DFF /* Build configuration list for PBXNativeTarget "Watch Match WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -1079,6 +1086,7 @@
 				4F1BA7081A22742000469DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1BA7281A22753700469DFF /* Build configuration list for PBXNativeTarget "WatchFramework" */ = {
 			isa = XCConfigurationList;
@@ -1087,6 +1095,7 @@
 				4F1BA72A1A22753700469DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1BA72C1A22753700469DFF /* Build configuration list for PBXNativeTarget "WatchFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -1095,6 +1104,7 @@
 				4F1BA72E1A22753700469DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1BA7511A228EE600469DFF /* Build configuration list for PBXNativeTarget "Game Generator" */ = {
 			isa = XCConfigurationList;
@@ -1103,6 +1113,7 @@
 				4F1BA7531A228EE600469DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
