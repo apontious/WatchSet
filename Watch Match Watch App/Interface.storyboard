@@ -8,13 +8,13 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Watch_Match_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Game starts at:" id="NiJ-t9-gld"/>
                         <label alignment="left" text="{Time}" id="2Kt-rH-se4"/>
                         <button alignment="left" backgroundImage="icon" id="l2y-np-nPv">
                             <connections>
-                                <action selector="tapButton:" destination="AgC-eL-Hgc" id="no6-oF-8kk"/>
+                                <action selector="tapButton" destination="AgC-eL-Hgc" id="9VA-BX-1OJ"/>
                             </connections>
                         </button>
                         <label alignment="center" verticalAlignment="center" alpha="0.0" text="Game Over" id="7W1-qc-zXt"/>
