@@ -38,7 +38,7 @@ class InterfaceController: WKInterfaceController {
     var hits: Int
     var misses: Int
 
-    override init(context: AnyObject?) {
+    override init!() {
         self.gameLogic = GameLogic()
         self.turnIndex = 0
         self.isPlaying = false
@@ -47,7 +47,7 @@ class InterfaceController: WKInterfaceController {
         self.hits = 0
         self.misses = 0
         
-        super.init(context: context)
+        super.init()
     }
 
     override func willActivate() {
